@@ -9,66 +9,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
     <style>
-        body {
-            margin: 0;
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            line-height: 1.6;
-        }
+        b.hero {
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+  background: #4b2c83; /* or your existing purple */
+  color: #fff;
+}
 
-        header {
-            background-color: #4b2e83;
-            color: white;
-            text-align: center;
-            padding: 70px 20px;
-        }
+.hero-content h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 2.6rem;
+  margin-bottom: 0.3rem;
+}
 
-        header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
+.hero-subtitle {
+  font-size: 1.05rem;
+  margin: 0.25rem 0;
+}
 
-        header p {
-            font-size: 1.2rem;
-            max-width: 700px;
-            margin: 0 auto;
-        }
+.hero-subtitle .brand-name {
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
 
-        .content {
-            max-width: 900px;
-            margin: 40px auto;
-            background: white;
-            padding: 30px 40px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-        }
+.tagline {
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  font-style: italic;
+}
 
-        .photo {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+/* Optional: tiny logo line you can use later under the header or in the footer */
+.logo-mark {
+  margin-top: 1.5rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
 
-        .photo img {
-            width: 260px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
-        }
+.logo-mark span {
+  display: block;
+}
 
-        h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            color: #4b2e83;
-            margin-bottom: 10px;
-        }
-    </style>
+.logo-mark .logo-tagline {
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  opacity: 0.9;
+}
+
+    </style> 
 </head>
 <body>
 
-   <header>
-    <h1>Welcome to Elizabeth Testerman Ministries</h1>
-    <p>Sharing faith, hope, and the love of Christ through teaching, encouragement, and biblical truth.</p>
+   <header class="hero">
+  <div class="hero-content">
+    <h1>Elizabeth A. Testerman</h1>
+    <p class="hero-subtitle">
+      Founder, <span class="brand-name">Test All Things Ministries</span>
+    </p>
+    <p class="tagline">
+      Equipping the Church with wisdom, discernment, and hope.
+    </p>
+  </div>
+</header> 
 
     <!-- Simple navigation -->
     <p>
